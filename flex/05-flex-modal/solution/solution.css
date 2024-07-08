@@ -22,6 +22,15 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+/* SOLUTION: */
+
+.modal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -68,13 +77,6 @@ button.cancel {
   color: royalblue;
 }
 
-/* SOLUTION: */
-
-.modal {
-  display: flex;
-  gap: 16px;
-  padding: 16px;
-}
 
 .icon {
   /* this keeps the icon from getting smashed by the text */
